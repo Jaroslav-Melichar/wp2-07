@@ -20,18 +20,12 @@
      for ($i=0; $i <$powerNumber; $i++){
          $result = $result * $number;
      }
+     return $result;
  }
-
-
-
-
-
-
-
-
+ 
 
     echo secondPower(9);
-
+    echo power(4,4);
 
     ?>
 </body>
