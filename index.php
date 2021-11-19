@@ -9,24 +9,17 @@
 <body>
     <?php
     
-    function secondPower($number){
-        $result = $number * $number;
-        return $result;
+    $people[0] = 32;
+    $people[1] = 17;
+    $people[2] = 13;
+    $people[3] = 99;
+
+    for ($i=; $i < count($people); $i++){
+        myDummyFunction($people[$i]);
     }
 
 
- function power($number, $powerNumber){
-     $result = $number;
-     for ($i=0; $i <$powerNumber; $i++){
-         $result = $result * $number;
-     }
-     return $result;
- }
- 
-
-    echo secondPower(9);
-    echo power(4,4);
-
+    echo sin(45);
     ?>
 </body>
 </html>
