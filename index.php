@@ -7,26 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
     
-    function secondPower($number){
-        $result = $number * $number;
-        return $result;
-    }
 
 
- function power($number, $powerNumber){
-     $result = $number;
-     for ($i=0; $i <$powerNumber; $i++){
-         $result = $result * $number;
-     }
-     return $result;
- }
- 
 
-    echo secondPower(9);
-    echo power(4,4);
 
-    ?>
+
+
+
+
+
+
+
 </body>
 </html>
